@@ -17,7 +17,7 @@ const Navbar = () => {
         {/* Brand */}
         <a className="navbar-brand fw-bold" href="#">
           <i className="bi bi-images me-2"></i>
-          ImageHub
+          Image
         </a>
 
         {/* Mobile toggle button */}
