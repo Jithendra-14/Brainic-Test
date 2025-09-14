@@ -1,4 +1,4 @@
-import React from 'react'
+
 import BrainTabSection from './BrainTabSection'
 
 const HeroSection = () => {

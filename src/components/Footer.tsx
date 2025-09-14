@@ -1,11 +1,10 @@
-import React from 'react'
 
 const Footer = () => {
   return (
     <footer className='container-fluid w-100 p-0'>
         <div className='container-xl row justify-content-between align-items-start m-auto'>
             <div className='col-md-4 flex flex-column align-items-start'>
-                <img alt="" data-filename="Copy of Copy of Copy of Brainic Website's 2.0 Desktop View  (1366 x 1366 px) (5).png" style={{ width: "100%", maxWidth: "200px", marginBottom: "0px" }} className="lazy entered loaded" data-src="https://d502jbuhuh9wk.cloudfront.net/orgData/672f648643928b6f870052dd/pages/assets/images/4K4nDcopyofcopyofcopyofbrainicwebsites2.0desktopview1366x1366px5.png" data-ll-status="loaded" src="https://d502jbuhuh9wk.cloudfront.net/orgData/672f648643928b6f870052dd/pages/assets/images/4K4nDcopyofcopyofcopyofbrainicwebsites2.0desktopview1366x1366px5.png"></img>
+                <img alt="" data-filename="Copy of Copy of Copy of Brainic Website's 2.0 Desktop View  (1366 x 1366 px) (5).png" style={{ width: "100%", maxWidth: "200px", marginBottom: "0px" }} className="lazy entered loaded" data-src="https://d502jbuhuh9wk.cloudfront.net/orgData/672f648643928b6f870052dd/pages/assets/images/4K4nDcopyofcopyofcopyofbrainicwebsites2.0desktopview1366x1366px5.png" data-ll-status="loaded" src="https://d502jbuhuh9wk.cloudfront.net/orgData/672f648643928b6f870052dd/pages/assets/images/4K4nDcopyofcopyofcopyofbrainicwebsites2.0desktopview1366x1366px5.png" />
                 <p className="mt-0" style={{ fontSize: "0.9rem", lineHeight: 1.5 }}>Brainic Academy is a visionary platform crafted to inspire and empower the next generation of talent from India. We weave connections between ambitious students and working expert from leading Companies, curating transformative experiences through immersive Brainic program.</p>
                 <h1 className='mb-0 fw-bold' style={{ fontSize: "1.5rem", lineHeight: 1.2 }}>Follow Us<br /><br /></h1>
                 <div className="is-social">
@@ -37,7 +36,7 @@ const Footer = () => {
             <div className='col-md-4 flex flex-column align-items-start'>
                 <h1 className="text-align-left fw-bold" style={{ fontSize: "1.5rem", lineHeight: 1.2 }}>Address</h1>
                 <p className="mt-0" style={{ fontSize: "0.9rem", lineHeight: 1.5 }}>Gokul Plots, Brainic Academy, 2nd Floor, Stand Alone Building, Plot No.1295, Venkata Ramana Colony, Kukatpally, Hyderabad, Telangana 500072.</p>
-                <div className="embed-map-responsive"><div className="embed-map-container"><iframe className="embed-map-frame" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=600&height=450&hl=en&q=University%20of%20Oxford&t=&z=14&ie=UTF8&iwloc=B&output=embed"></iframe><a href="https://cartoongames.io" style={{ fontSize: "2px!important", color: "gray!important", position: "absolute", bottom: 0, left: 0, zIndex: 1, maxHeight: "10px", overflow: "hidden" }}>Cartoon Games</a><a href="https://heygames.org" style={{ fontSize: "2px!important", color: "gray!important", position: "absolute", bottom: 0, left: 0, zIndex: 1, maxHeight: "10px", overflow: "hidden" }}>HeyGames</a><a href="https://map-embed.org" style={{ fontSize: "2px!important", color: "gray!important", position: "absolute", bottom: 0, left: 0, zIndex: 1, maxHeight: "10px", overflow: "hidden" }}>google maps generator</a></div><style>{`.embed-map-responsive{position:relative;text-align:right;width:100%;height:0;padding-bottom:75%;}.embed-map-container{overflow:hidden;background:none!important;width:100%;height:100%;position:absolute;top:0;left:0;}.embed-map-frame{width:100%!important;height:100%!important;position:absolute;top:0;left:0;}`}</style></div>
+                <div className="embed-map-responsive"><div className="embed-map-container"><iframe className="embed-map-frame" frameBorder="0" scrolling="no" src="https://maps.google.com/maps?width=600&height=450&hl=en&q=University%20of%20Oxford&t=&z=14&ie=UTF8&iwloc=B&output=embed"></iframe><a href="https://cartoongames.io" style={{ fontSize: "2px!important", color: "gray!important", position: "absolute", bottom: 0, left: 0, zIndex: 1, maxHeight: "10px", overflow: "hidden" }}>Cartoon Games</a><a href="https://heygames.org" style={{ fontSize: "2px!important", color: "gray!important", position: "absolute", bottom: 0, left: 0, zIndex: 1, maxHeight: "10px", overflow: "hidden" }}>HeyGames</a><a href="https://map-embed.org" style={{ fontSize: "2px!important", color: "gray!important", position: "absolute", bottom: 0, left: 0, zIndex: 1, maxHeight: "10px", overflow: "hidden" }}>google maps generator</a></div><style>{`.embed-map-responsive{position:relative;text-align:right;width:100%;height:0;padding-bottom:75%;}.embed-map-container{overflow:hidden;background:none!important;width:100%;height:100%;position:absolute;top:0;left:0;}.embed-map-frame{width:100%!important;height:100%!important;position:absolute;top:0;left:0;}`}</style></div>
             </div>
         </div>
         <div className="container-fluid mt-3 bg-light text-dark py-5 d-flex flex-column align-items-center justify-content-center w-100" style={{ rowGap: 30, clear: "both" }}>
@@ -109,6 +108,6 @@ const Footer = () => {
         </div>
     </footer>
   )
-}
+};
 
-export default Footer
+export default Footer;
