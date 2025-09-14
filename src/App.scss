@@ -1,0 +1,100 @@
+// Import Bootstrap SCSS
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+#root {
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.search-input {
+    min-width: 160px;
+    height: 2.3rem;
+    font-size: 0.7rem;
+}
+.navbar {
+    background-color: var(--headerBGColor);
+    min-height: var(--headerHeight);
+    .navbar-brand {
+        min-height: var(--headerHeight);
+        .brand-img {
+            height: 32px;
+        }
+    }
+    .search-input {
+        height: 2.3rem;
+    }
+    .navbar-nav {
+        .nav-link {
+            color: var(--headerTextColor);
+            font-size: 0.7rem;
+            &:hover {
+                color: var(--bs-primary);
+            }
+        }
+    }
+    .navbar-toggler {
+        --bs-bg-opacity: 0;
+        &:hover {
+            --bs-bg-opacity: 0.1;
+        }
+    }
+    .login-btn {
+        min-width: 150px;
+        background: linear-gradient(81.57deg, #8856fa 29.59%, #2fb576 94.75%);
+        font-size: 0.7rem;
+        @include media-breakpoint-down(lg) {
+            min-width: 100%;
+        }
+    }
+}
+
+
+.brain-tab-nav::-webkit-scrollbar {
+    display: none;
+}
+
+.card-image {
+    height: 48px;
+}
+
+.brain-tab-item {
+    transition: translate 0.3s, box-shadow 0.3s, --bs-bg-opacity 0.3s;
+    &:hover {
+        --bs-bg-opacity: .2;
+        translate: 0 -0.5rem;
+    }
+}
+
+
+.trending-courses {
+    .nav-item {
+        .btn {
+            &.btn-light:hover:not(.active) {
+                background-color: var(--bs-black);
+                color: var(--bs-white);
+                border-color: var(--bs-white);
+            }
+            &.btn-dark:hover:not(.active) {
+                background-color: var(--bs-white);
+                color: var(--bs-black);
+                border-color: var(--bs-black);
+            }   
+        }
+    }
+}
+
+.accordion-button::after {
+    background-image: none !important;
+    content: '+';
+    font-size: 1.25rem;
+    line-height: 1rem;
+    font-weight: bold;
+    float: right;
+    margin-left: auto;
+    transition: transform 0.3s ease;
+    transform: translate(14px, 0) rotate(0deg);
+}
+
+.accordion-button:not(.collapsed)::after {
+    content: '–'; /* Unicode minus sign */
+    transform: translate(16px, 0) rotate(0deg);
+}

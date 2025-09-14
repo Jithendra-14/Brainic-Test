@@ -1,46 +1,25 @@
-import { useState } from 'react'
-import Navbar from './components/Navbar'
-import './App.css'
+import './App.scss'
+import Header from './components/Header'
+import HeroSection from './components/Hero/HeroSection'
+import Accreditions from './components/Accreditions'
+import ProgramsSection from './components/ProgramsSection'
+import Companies from './components/Companies'
+import Testimonials from './components/Testimonials'
+import FAQ from './components/FAQ'
+import Footer from './components/Footer'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <Navbar />
-      <div className="container mt-5">
-        <div className="row justify-content-center">
-          <div className="col-md-8">
-            <div className="card shadow">
-              <div className="card-body text-center">
-                <h1 className="card-title display-4 text-primary mb-4">
-                  Welcome to ImageHub
-                </h1>
-                <div className="mb-4">
-                  <button 
-                    className="btn btn-primary btn-lg me-2" 
-                    onClick={() => setCount((count) => count + 1)}
-                  >
-                    Count is {count}
-                  </button>
-                  <button 
-                    className="btn btn-outline-secondary" 
-                    onClick={() => setCount(0)}
-                  >
-                    Reset
-                  </button>
-                </div>
-                <div className="alert alert-info" role="alert">
-                  <strong>Navbar with search functionality added!</strong> Use the search bar to find images
-                </div>
-                <p className="text-muted">
-                  Explore our image gallery with powerful search and categorization features
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Header />
+      <HeroSection />
+      <Accreditions />
+      <ProgramsSection />
+      <Companies />
+      <Testimonials />
+      <FAQ />
+      <Footer />
     </>
   )
 }
